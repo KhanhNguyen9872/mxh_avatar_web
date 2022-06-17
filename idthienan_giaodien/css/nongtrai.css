@@ -1,0 +1,218 @@
+body{
+background: #b3afaf ;
+width:100%;
+margin: 0;
+padding: 0;
+font-family: Arial;
+font-size: 9pt;
+cursor: url("images/trochuot.cur"), progress;
+}
+a:hover, a:focus {
+text-decoration:none;
+color:#3883CC;
+cursor : url("images/trochuotnhanvao.cur"), progress;
+}
+input[type="button"] {
+border-radius: 3px;
+background-color: #fff;
+color:#3883CC;
+text-align:center;
+border: 1px solid #3883CC;
+font-size:11px;
+}
+.rmenu2 {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #FFC9D6;
+    color: #000000;
+    margin: 1px 0px;
+    padding: 10px;
+width: 99%;
+}
+.gach {
+background: url('images/7kK4wQN.png');
+}
+.legiaitri{
+	background: url('images/le.png') repeat-x;
+	height: 30px;
+	margin: 0;}
+.nendn{
+	background: url('images/nhasang.png') repeat-x;}
+
+.rank{#00ff00;text-shadow:0 1px 1px #cc9900,1px 0 1px #cc9900,0 -1px 1px #cc9900,-1px 0 1px #cc9900;border:1px solid#ff0000;border-radius:10px;padding:2px;margin:2px;box-shadow: 1px 1px 7px #ff0000
+}
+.rank2{border:1px solid#FFCC00;border-radius:10px;padding:2px;margin:2px;box-shadow: 1px 1px 7px #FFCC00
+}
+.rank3{border:1px solid#00CC00;border-radius:10px;padding:2px;margin:2px;box-shadow: 1px 1px 7px #00CC00
+}
+
+.pmenu{background-color:#EAF6FC;border-radius:5px;border:1px solid #bce8f1;color:#31708f;margin:5px 0;padding:10px}
+.rmenu{background:#F5E9EB;border:1px solid #E2C0C7;margin:1px 0;padding:4px}
+.hu2{background-image: url('/icon/2.gif');}
+.map img:hover {-moz-transform: rotate(360deg);-moz-transition: all 3s ease;-webkit-transform: rotate(360deg);-webkit-transition: all 3s ease;position: relative;transform: rotate(360deg);transition: all 1s ease;}
+.pmenu {
+background-color: #F5F5F5;
+border-bottom: 1px solid #EBEBEB;
+padding: 5px;
+}
+.tuoitho {
+progress;
+  background: url('images/tuoitho.gif');}
+@-webkit-keyframes hue
+{
+100% { -webkit-filter:hue-rotate(360deg); }
+} 
+.fmod{ -webkit-animation:hue 1s linear infinite;color: orange;text-shadow: 0px 0px 1px #00FFFF !important;}
+.xblue{
+#2AB7FF; text-shadow: 1px 2px 10px #00FFC0;background-image: url(images/hu1.gif);}
+.fmod {margin: 0px; padding: 0px; color: rgb(25, 103, 245);}
+.admin {margin: 0px; padding: 0px; color: rgb(255, 10, 10); text-shadow: rgb(17, 17, 17) 0px 0px 0px, rgb(255, 10, 10) 0px 0px 0.5em, rgb(255, 10, 10) 0px 0px 0.4em;}
+.lucifer {
+background-color: #ecfff4;
+border-radius: 5px;
+padding: 8px;
+margin-bottom: 5px;
+border: solid 1px #51ccad;
+}
+.nennongtrai {
+background: url('images/nennongtrai.png') repeat-x;
+height: 141px;
+}
+.nennongtrai_toi {
+background: url('images/nennongtrai-toi.png') repeat-x;
+height: 141px;
+}
+.tmn{background-color:#e0f3ff;border:1px #b2f3af solid;margin:3px 0 5px 0;padding:15px;border-radius:5px}
+.bautroiboss {
+border: 1px solid #5ac1c7;
+text-align: center;
+background: url('images/bautroiboss.png');
+margin: 4px 0px;
+}
+.hangraoboss {
+background: url('images/hangraoboss.png') repeat-x;
+height: 60px;
+}
+.datboss {
+text-align: center;
+background: url('images/datboss.png');
+padding: 5px;
+}
+.nennhatu {
+background: url('images/da.png');
+padding: 4px;
+}
+.da {
+background: url('images/da.png');
+}
+.cola {
+margin: 10px 0px;
+background: url('images/cola.png');
+padding: 2px;
+}
+.leduong{
+background-image:url('images/leduong.png');
+height:30px;margin:0;
+max-width: 900px;
+width: 100%;
+}
+.le{
+background-image:url('images/le.png');
+height:30px;margin:0;
+max-width: 900px;
+width: 100%;
+}
+.nencay{
+background:url('images/nencanh1.png') repeat-x;height:96px;width:100%;
+max-width: 900px;
+width: 100%;
+}
+.nengach{
+background: url('images/nengach.png');
+padding: 2px;
+}
+.nhatoi{
+background:url(images/nhatoi.png) repeat-x;height:96px;width:100%;
+max-width: 900px;
+width: 100%;
+}
+.nenbetong{
+background: url('images/betong.png');
+padding: 2px;
+}
+.nengo{
+background: url('images/nengo.png');
+padding: 2px;
+}
+.buico {
+background: url('images/buico.png') repeat-x;
+margin-bottom: 4px;
+height: 24px;
+}
+.cotinhte{
+background: url('images/background.png');
+padding: 2px;
+}
+.nhasang{
+background:url(images/nencanh.png) repeat-x;height:96px;width:100%;
+max-width: 900px;
+width: 100%;
+}
+.nencat{
+background:url('images/nencat.png');
+max-width:100%;margin:auto;
+min-height:100px;
+border-bottom:0px;
+text-align:center
+}
+.bien{
+background:url('images/bien.png');
+max-width: 100%;margin:auto;
+min-height:100px;
+}
+.vaoshop{
+background:url('images/fashion.png') no-repeat bottom center;
+padding-top:85px;
+text-align:center
+}
+.topic_qt { 	
+float: left; 	
+width: 100%;
+line-height: 15px; 
+background-color: #EEE;	 
+border-bottom: 1px #C1C1C1 solid;
+}
+.topic_name_qt { 
+float: left; 
+width: 100%; 	
+padding: 5px 0px; 
+padding-left: 15px;
+}
+box_name_qt { 
+font-size: 11px; 
+color: #666666;
+}
+.box_pc {
+float: left; 
+width: 100%; 	
+color: #FFFFFF; 
+background-color: #3883CC; 
+height: 5px;
+ }
+.box_thong_ke { 	float: left; 	width: 100%; 	border-bottom:3px solid #246896;}
+.box_cm { 	float: left; 	width: 100%; 	line-height: 15px; 	background-color: #D8E4ED;	 	border-bottom: 1px #C1C1C1 solid; }
+.topic_name_cm { 	float: left; 	width: 100%; 	padding: 5px 0px; 	padding-left: 15px; }
+.box_topsss { 	float: left; 	width: 100%; 	color: #FFFFFF; 	background-color: #3883CC; }
+.a{
+height: 48px;
+text-align:center;
+margin-top:-10px;
+z-index:1;
+position: relative;
+background-image:url(images/buom.gif);
+}
+.buicay{
+background: url('images/onZqEVP.png') repeat-x; 
+height: 25px;
+width: 100%;
+}

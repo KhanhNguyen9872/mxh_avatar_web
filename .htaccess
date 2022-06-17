@@ -1,0 +1,149 @@
+DirectoryIndex index.php index.html
+
+RewriteEngine On
+Rewritebase /
+
+RewriteCond %{HTTP_USER_AGENT} WordPress [NC]
+RewriteRule .* - [F,L]
+
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteCond %{HTTP:range} !(^bytes=[^,]+(,[^,]+){0,4}$|^$)
+#RewriteRule .* - [F]
+RewriteRule ^p([0-9]*).html$ ?page=$1
+RewriteRule ^forums/(.*)-([0-9]+).html$ forum/index.php?act=nt&id=$2 [L]
+RewriteRule ^forum-thears-topic-xem/([0-9]+).html$ forum/index.php?id=$1 [L]
+RewriteRule ^upload/(.*)-([0-9]+).html$ forum/index.php?act=addfile&id=$2 [L]
+RewriteRule ^import/(.*)-([0-9]+).html$ forum/index.php?act=import&id=$2 [L]
+
+#Rewrite forum
+RewriteRule ^forum/index.php?id=([0-9]+)$ forum/0$1 [L]
+RewriteRule ^forum/([0-9]*).html$ forum/index.php?id=$1 [L]
+RewriteRule ^(.*)/([0-9]+)-xem([0-9]+).html$ forum/index.php?id=$2&trang=$3 [L]
+RewriteRule ^forums/([0-9]+).html$ forum/index.php?id=$1 [L]
+RewriteRule ^(.*)/([0-9]+)-p([0-9]+).html$ forum/index.php?id=$2&page=$3 [L]
+RewriteRule ^forum/thich-([0-9]+)-([0-9]+)-([0-9]+).html$ forum/index.php?id=$1&thanks=$2&user=$3&start=0&thank#thanksyou [L]
+RewriteRule ^forum/([0-9]+)-delete.html$ forum/index.php?act=deltema&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-rename.html$ forum/index.php?act=ren&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-tag.html$ forum/index.php?act=tag&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-trich.html$ forum/index.php?act=say&id=$1&start=0&cyt [L]
+RewriteRule ^forum/([0-9]+)-binhluan.html$ forum/index.php?act=say&id=$1&start=0 [L]
+RewriteRule ^forum/([0-9]+)-gim.html$ forum/index.php?act=vip&id=$1&vip [L]
+RewriteRule ^forum/([0-9]+)-nogim.html$ forum/index.php?act=vip&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-download.html$ forum/index.php?act=file&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-edit.html$ forum/index.php?act=editpost&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-del.html$ forum/index.php?act=editpost&do=del&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-page=([0-9]+).html$ forum/index.php?id=$1&page=$2 [L]
+RewriteRule ^forum/([0-9]+)-page=([0-9]+)$ forum/index.php?id=$1&page=$2 [L]
+
+#Rewrite tìm kiếm
+RewriteRule ^search/(.*)$ forum/search.php?t=1&search=$1 [L]
+RewriteRule ^search/(.*)&page=([0-9]+)$ forum/search.php?t=1&search=$1&page=$2 [L]
+RewriteRule ^search/(.*)&trang([0-9]+).html$ forum/search.php?t=1&search=$1&page=$2 [L]
+
+#Rewrite mail
+RewriteRule ^mail/([0-9]*)$ mail/index.php?act=write&id=$1 [L]
+RewriteRule ^mail/new.html$ mail/index.php?act=new [L]
+RewriteRule ^mail/thu-den.html$ mail/index.php?act=input [L]
+RewriteRule ^mail/thu-di.html$ mail/index.php?act=output [L]
+RewriteRule ^mail/([0-9]*)-page=([0-9]*+)$ mail/index.php?act=write&id=$1&page=$2 [L]
+
+#Rewrite users
+RewriteRule ^member/([0-9]*).html$ users/profile.php?user=$1 [L]
+RewriteRule ^member/edit-([0-9]*).html$ users/profile.php?act=edit&user=$1 [L]
+RewriteRule ^member/pass-([0-9]*).html$ users/profile.php?act=matkhau&user=$1 [L]
+RewriteRule ^member/pass_2-([0-9]*).html$ users/profile.php?act=matkhau_2&user=$1 [L]
+RewriteRule ^users/ketban-([0-9]*).html$ users/profile.php?act=friends&do=add&id=$1 [L]
+RewriteRule ^users/(.*).html$ users/profile.php?act=office [L]
+RewriteRule ^thongbao.html$ users/thongbao.php [L]
+RewriteRule ^users/topic-cua-ban/([0-9]*).html$ users/profile.php?act=activity&mod=topic&user=$1 [L]
+
+#Rewrite dangnhap dang ki index
+RewriteRule ^reg/([0-9]*)$ dangki.php?id=$1 [L]
+RewriteRule ^dangnhap.html$ dangnhap.php [L]
+RewriteRule ^login.php$ dangnhap.php [L]
+RewriteRule ^dangki.html$ dangki.php [L]
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^home.html$ index.php [L]
+
+#Rewrite smileys
+RewriteRule ^bieucam.html$ pages/faq.php?act=smileys [L]
+
+#Rewrite avatar
+RewriteRule ^avatar/([0-9]*).png$ avatar.php?u=$1 [L]
+RewriteRule ^images/shop/([0-9]*).png$ img_shop.php?u=$1 [L]
+RewriteRule ^avatar/toc.html$ avatar/toc.php [L]
+RewriteRule ^avatar/quan.html$ avatar/quan.php [L]
+RewriteRule ^avatar/ao.html$ avatar/ao.php [L]
+RewriteRule ^avatar/docamtay.html$ avatar/docamtay.php [L]
+RewriteRule ^avatar/canh.html$ avatar/canh.php [L]
+RewriteRule ^avatar/non.html$ avatar/non.php [L]
+RewriteRule ^avatar/mat.html$ avatar/mat.php [L]
+RewriteRule ^avatar/matna.html$ avatar/matna.php [L]
+RewriteRule ^avatar/thucung.html$ avatar/thucung.php [L]
+
+#nha o
+RewriteRule sanbay/house/edit/([0-9]*)_([0-9]*).html$ sanbay/house/edit/?ngang=$1&doc=$2 [L]
+RewriteRule sanbay/house/edit/([0-9]*)_([0-9]*)_([0-9]*).html$ sanbay/house/edit/?ngang=$1&doc=$2&dichuyen=$3 [L]
+RewriteRule sanbay/house/edit/([0-9]*)_([0-9]*)_([0-9]*)_huy.html$ sanbay/house/edit/?ngang=$1&doc=$2&dohuy=$3 [L]
+RewriteRule sanbay/house/edit/movie_([0-9]*)_([0-9]*)_([0-9]*)_([0-9]*)_([0-9]*).html$ sanbay/house/edit/?ngang=$1&doc=$2&dichuyen=$3&ngang_goc=$4&doc_goc=$5&chuyen [L]
+RewriteRule sanbay/house/shop/chon_([0-9]*)_([0-9]*)_([0-9]*).html$ sanbay/house/shop/?ngang=$1&doc=$2&iddo=$3 [L]
+RewriteRule sanbay/house/shop/vpid_([0-9]*).html$ sanbay/house/shop/?vatpham=$1 [L]
+RewriteRule sanbay/house/shop/tt_([0-9]*).html$ sanbay/house/shop/?name=$1 [L]
+RewriteRule sanbay/house/shop/tt_([0-9]*)_p([0-9]*).html$ sanbay/house/shop/?name=$1&page=$2 [L]
+
+
+
+<FilesMatch ".(js|css|html|htm|php|xml)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE image/x-icon
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml 
+    AddOutputFilterByType DEFLATE application/x-font  
+    AddOutputFilterByType DEFLATE application/x-font-truetype  
+    AddOutputFilterByType DEFLATE application/x-font-ttf  
+    AddOutputFilterByType DEFLATE application/x-font-otf 
+    AddOutputFilterByType DEFLATE application/x-font-opentype 
+    AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+    AddOutputFilterByType DEFLATE font/ttf 
+    AddOutputFilterByType DEFLATE font/otf 
+    AddOutputFilterByType DEFLATE font/opentype
+    # For Older Browsers Which Can't Handle Compression
+    BrowserMatch ^Mozilla/4 gzip-only-text/html 
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+
+
+
+
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##

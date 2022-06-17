@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteCond %{HTTP:range} !(^bytes=[^,]+(,[^,]+){0,4}$|^$)
+RewriteRule .* - [F]
+
+RewriteRule ^$ index.php [L]
+RewriteRule ^([0-9]*)$ phong.php?id=$1 [L]
+RewriteRule ^([0-9]*)/$ phong.php?id=$1 [L]
+RewriteRule ^([0-9]*)/page/([0-9]*)$ phong.php?id=$1&next=$2 [L]
+RewriteRule ^page/([0-9]*)$ ?next=$1 [L]
+RewriteRule ^hp/([0-9]*).png$ hp.php?id=$1 [L]
+RewriteRule ^([0-9]*)/kick/1$ kick.php?id=$1&nick=1 [L]
+RewriteRule ^([0-9]*)/kick/2$ kick.php?id=$1&nick=2 [L]
+RewriteRule ^([0-9]*)/kick/3$ kick.php?id=$1&nick=3 [L]

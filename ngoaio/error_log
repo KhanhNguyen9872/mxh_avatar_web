@@ -1,0 +1,30 @@
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: ban in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 9
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): Access denied for user 'armysite'@'localhost' (using password: NO) in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): A link to the server could not be established in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): Access denied for user 'armysite'@'localhost' (using password: NO) in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): A link to the server could not be established in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 20
+[08-Feb-2020 06:49:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 52
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: ban in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 9
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): Access denied for user 'armysite'@'localhost' (using password: NO) in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): A link to the server could not be established in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): Access denied for user 'armysite'@'localhost' (using password: NO) in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): A link to the server could not be established in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 20
+[08-Feb-2020 08:06:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 52
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: ban in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 9
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): Access denied for user 'armysite'@'localhost' (using password: NO) in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): A link to the server could not be established in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 18
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): Access denied for user 'armysite'@'localhost' (using password: NO) in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Warning:  mysql_query(): A link to the server could not be established in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 19
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 20
+[08-Feb-2020 08:09:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/armysite/avatarhtt.ga/ngoaio/nhatu.php on line 52

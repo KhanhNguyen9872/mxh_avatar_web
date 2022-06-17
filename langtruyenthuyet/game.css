@@ -1,0 +1,19 @@
+.datboss {
+text-align: center;
+background: url('img/datboss.png');
+padding: 5px;
+}
+.bautroiboss {
+text-align: center;
+background: url('img/bautroiboss.png');
+margin: 0px 0px;
+}
+.hangraoboss {
+background: url('img/hangraoboss.png') repeat-x;
+height: 60px;
+}
+.buico {
+background: url('img/buico.png') repeat-x;
+margin-bottom: 0px;
+height: 24px;
+}

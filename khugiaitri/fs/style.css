@@ -1,0 +1,310 @@
+body {
+margin: 0px; padding: 0px; font-family: arial; font-size: normal; color: #666; margin : 0; padding : 1px; margin: auto; max-width: 700px;  background: url(http://codebtw.googlecode.com/files/bg.jpg); background-color:#f7f7f7;
+
+}
+.main {
+border: 0px solid #e1e1e1;
+background: #ffffff;
+color: #555;
+margin: 0px;
+padding: 4px;
+font-size: 14px;
+font-family: "Times New Roman", Times, serif;
+}
+.main img {
+max-width: 80%;
+}
+a:link, a:active, a:visited {
+color: #009cf0;
+text-decoration: none;
+}
+a:hover, a:focus {
+color: #b1b1b1;
+}
+
+h1, h2{
+margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+h2 { font-weight: normal; color:black;}
+
+img {
+border-style : none;border:0
+}
+hr {
+margin-top : 3px;
+margin-bottom : 3px;
+border-top : 1px dotted #c6c6c6;
+border-right-style : none;
+border-bottom-style : none;
+border-left-style : none;
+}
+
+.white {background-color : #ffffff;}
+
+
+#kendaik {
+
+width: 200px;
+}
+#kendaik:hover {
+background-color: #ffffff;
+padding: 5px;
+transition: all 3s ease;
+-webkit-transition: all 3s ease;
+-moz-transition: all 3s ease;
+transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+position: relative;
+width: 365px;
+}
+
+.phdr {
+color : #ffffff;
+text-shadow : #45cdf5 1px 1px 1px;
+background-color : #11bce0;
+
+background-repeat : repeat-x;
+background-position : 50% top;
+margin-top : 1px;
+margin-bottom : 1px;
+padding : 2px;
+border : 1px solid #15a8c7;
+}
+.phdr a {
+color : #ffffff;
+border-bottom : 1px dotted #6ed7f0;
+}
+.phdr a:hover {
+color : #dbfaff;
+border-bottom : 1px dotted #edf9fd;
+}
+.rekl {
+padding: 4px;
+border: 1px solid #dfdfdf;
+background: #ffd url(http://3x39.jw.lt/adv.gif) repeat-x 50% top;
+}
+.rekl a {
+color: black;
+}
+.stop{
+color : #fd4646;
+background-color : #fff0f0;
+background-repeat : repeat-x;
+background-position : 50% top;
+margin-top : 1px;
+margin-bottom : 1px;
+padding : 2px;
+border : 1px solid #ffd0d0;
+}
+.hdr {
+color: #fffaee;
+font-weight: bold;
+text-shadow: #45cdf5 1px 1px 1px;
+background-color: #08A8E8;
+margin-top: 4px;
+margin-bottom: 1px;
+padding: 4px 6px 4px 6px;
+border-bottom: 2px solid #2060E0;
+}
+.hdr a {
+color: #fffaee;
+}
+.hdr a:hover {
+color: #dbfaff;
+}
+.nav:after, .edryc18:after {
+display: block;
+height: 15px;
+background: url(http://3x39.jw.lt/lb.gif) left 0 no-repeat;
+text-align: right;
+content: url(rb.gif);
+margin: -10px -5px -5px;
+}
+.rekl:before {
+background: url(http://3x39.jw.lt/lt.gif) left 2px no-repeat;
+text-align: right;
+display: block;
+margin: -7px -7px -22px -5px;
+height: 28px;
+content: url(http://3x39.jw.lt/advt.png);
+}
+.title {
+font-weight: bold;
+color: #fff;
+position: relative;
+z-index: 1;
+margin: 2px 0px 1px 6px;
+padding: 2px 5px 2px 5px;
+border-color: #8fdcff;
+border-style: groove ridge ridge groove;
+border-width: 2px;
+display: table;
+background: #1895d4 url(images/til.gif) repeat-x 50% top;
+}
+
+.title a {
+color: #fff;
+border-bottom: 1px dotted #ace6ff;
+}
+.list, .menu{
+background-color: #fff;
+margin-top: 1px;
+margin-bottom: 1px;
+padding: 4px;
+border: 1px solid #d5d5d5;
+}
+.list1{
+border: 1px solid #e1e1e1;
+margin-top: 1px;
+margin-bottom: 1px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+padding: 4px;
+}
+
+.list2{
+border: 1px solid #e0e0e0;
+margin-top: 1px;
+margin-bottom: 1px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+padding: 4px;
+}
+.quote {
+background-color : #fcfeeb;
+border: 1px solid #e9ebec;
+border-left: 4px solid #8394b2;
+color : #878787;
+font-size : 11px;
+padding-left : 6px;
+margin-top : 5px;
+padding: 3px;
+}
+.tieude{
+background-color:#666666;
+padding: 2px;
+padding-left: 5px;
+text-align:left;
+border-bottom-color:#333333;
+border-bottom-style:solid;
+border-bottom-width:3px;
+margin:0;
+color:#FFCC77;
+font-size:14px;
+}
+span.small_text {font-size: 11px; color: grey;}
+span.new_files {font-size: 11px; color: red;}
+.head {
+text-shadow: #e6daac 1px 1px;
+color: #444;
+font-size: 18px;
+font-weight: bold;
+padding: 1px;
+border-bottom: 1px solid #edaa09;
+background: #fff2bf;
+}
+
+.foot {
+font-size: 11px;
+margin-top: 1px;
+padding: 4px;
+border-bottom: 1px solid #ffe684;
+background: #fff2bf;
+}
+.footer a {
+color: #fff;
+}
+
+.gmenu {
+color : #c2790a;
+background-color : #f8f8f8;
+background-image : url(images/gmenu.gif);
+background-repeat : repeat-x;
+background-position : 50% top;
+margin-top : 1px;
+margin-bottom : 1px;
+padding : 2px;
+border : 1px solid #ece9e9;
+}
+.gmenu a {
+color : #c2790a;
+border-bottom : 1px dotted #dfcea1;
+}
+.gmenu a:hover {
+color : #c24c0a;
+border-bottom : 1px dotted #ac592a;
+}
+.gray {
+color : #a895a0;
+}
+.green {
+color : #66bd00;
+}
+.func {
+border-left : 4px solid #e8930d;
+color : #757575;
+font-size : x-small;
+margin-top : 4px;
+margin-left : 2px;
+padding-left : 4px;
+}
+.xt_blog_paging:before {
+content: url(http://yenhung.xtgem.com/images/tiep.png);
+padding-right: 2px;
+}
+.xt_blog_paging a {
+border: 1px solid #88beff;
+padding: 0 1px;
+}
+#menu {padding-left:5px;border-bottom:5px solid #FFB600;font-size:12px}
+#menu a {color:#494949;font-weight:bold}
+#menu tr, #menu td{height:25px;padding-top:4px}
+#menu td {padding-left:5px;padding-right:5px;text-align:center}
+#menu .active {background:#FFB600;}
+#menu .active a {color:#fff}
+.footer{color: #fffaee;
+background-color: #319aff;
+background-repeat: repeat-x;
+background-position: 50% top;
+margin-top: 1px;
+text-align: center;
+margin-bottom: 1px;
+padding: 2px; border:
+1px solid #007dff;}
+.filelist_paging, .page {
+text-align: left;
+padding: 2px;
+background-color: #fff0f0;
+margin-top: 1px;
+margin-bottom: 1px;
+border: 1px solid #ffabab;
+font-weight: bold;
+font-size: 14px;
+}.filelist_paging, .page {
+text-align: left;
+padding: 2px;
+background-color: #fff0f0;
+margin-top: 1px;
+margin-bottom: 1px;
+border: 1px solid #ffabab;
+font-weight: bold;
+font-size: 14px;
+}
+.filelist_paging:before, .page:before {
+padding-right: 2px;
+}
+.filelist_paging a, .page a {
+border: 1px solid #88beff;
+padding: 0 2px;
+margin: 1px;
+}
+.header {   background: #fff url(http://msky.biz/fs2/bg.gif) repeat-x;   border: 1px solid#88beff;  text-align:center;
+text-shadow: #e6daac 1px 1px;
+color: #444;
+
+font-weight: bold;
+padding:3px;
+border-bottom: 1px solid #edaa09;
+}

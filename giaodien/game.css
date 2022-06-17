@@ -1,0 +1,352 @@
+.avatar {
+vertical-align: -7px;
+border-radius: 50%;
+}
+.item {
+float: left;
+margin-right: 5px;
+} 
+.avatar_ver {
+width: 28px;
+height: 28px;
+float: left;
+margin: 0 4px 0 0;
+}
+.avatar_vina {
+width: 45px;
+height: 48px;
+float: left;
+}
+.dat {
+background: url('/icon/dat.png');
+padding: 6px;
+}
+.datnro {
+background: url('/icon/datnro.png');
+padding: 6px;
+}
+.cola {
+margin: 10px 0px;
+background: url('/icon/cola.png');
+padding: 2px;
+}
+.nencat{
+background: url('images/nencat.png');
+max-width: 100%;
+margin: auto;
+min-height: 100px;
+border-bottom: 2px solid #e7e7e7;
+text-align: center;
+}
+.thongbaomini {
+background-color: #fffcf2;
+padding: 3px;
+margin-top: 4px;
+margin-bottom: 5px;
+border: 1px solid #fff8e3;
+}
+.noidung {
+border-top: 1px dashed #ddd;
+padding: 4px;
+margin: 0px -3px;
+}
+.tintuc {
+background-color: #fff9f0;
+padding: 4px;
+margin: 4px 0px 5px 0px;
+color: #777;
+}
+#raucu {
+padding: 1px;
+}
+#thuhoach {
+padding: 1px;
+border: 1px solid #ff9d00;
+}
+.honuoc {
+background: #5dbdf5 url('images/honuoc.png') repeat-x bottom;
+margin: -2px -5px -1px -5px;
+padding-top: 100px;
+}
+.bien {
+background: #5dbdf5 url('images/bien.jpg') repeat-x bottom;
+}
+.canhnro {
+background: #5dbdf5 url('/icon/canhngocrong.png');
+padding-top: 10px;
+}
+.honuoccauca {
+background: #5dbdf5 url('images/honuoccauca.png') repeat-x bottom;
+margin: -2px -5px -1px -5px;
+padding-top: 10px;
+}
+.datcauca {
+background: url('images/datcauca.png') no-repeat bottom center;
+text-align: center;
+padding-top: 160px;
+}
+.ngoicau {
+background: url('images/ngoicau.png') no-repeat bottom left;
+text-align: left;
+padding: 168px 0px 24px 38px;
+}
+
+#nhan_8{
+background:url(/images/shopicon/nhan_8.gif) no-repeat top left; 
+display:inline-block;
+margin:2px;padding:0px 12px;
+}
+#nhan_9{
+background:url(/images/shopicon/nhan_9.gif) no-repeat top left;   
+display:inline-block;
+margin:2px;padding:0px 12px;
+}
+#nhan_10{
+background:url(/images/shopicon/nhan_10.gif) no-repeat top left;  
+display:inline-block;
+margin:2px;padding:0px 12px;
+}
+#nhan_11{
+background:url(/images/shopicon/nhan_11.gif) no-repeat top left;   
+display:inline-block;
+margin:2px;padding:0px 12px;
+}
+#nhan_12{
+background:url(/images/shopicon/nhan_12.gif) no-repeat top left;   
+display:inline-block;
+margin:2px;padding:0px 12px;
+}
+.da {
+background: url('images/da.png');
+}
+.giangcau {
+background: url('images/giangcau.png') no-repeat;
+}
+.vaocau {
+background: url('images/vaocau.png') no-repeat bottom center;
+padding-top: 52px;
+text-align: center;
+}
+.vaoshop {
+background: url('images/fashion.png') no-repeat bottom center;
+padding-top: 85px;
+text-align: center;
+}
+.nennongtrai {
+background: url('images/nennongtrai.png') repeat-x;
+height: 141px;
+}
+.nennongtrai_toi {
+background: url('images/nennongtrai-toi.png') repeat-x;
+height: 141px;
+}
+.coxanh {
+background: url('/farm/css/cola.png');
+}
+.datboss {
+text-align: center;
+background: url('images/datboss.png');
+padding: 5px;
+}
+.nhaboss {
+text-align: center;
+background: url('images/nha.png') no-repeat right;
+height: 199px;
+}
+.bautroiboss {
+border: 1px solid #5ac1c7;
+text-align: center;
+background: url('images/bautroiboss.png'); 
+margin: 4px 0px;
+}
+.hangraoboss {
+background: url('images/hangraoboss.png') repeat-x; 
+height: 60px;
+}
+.listboss {
+background:#555;
+border: 1px solid #494949;
+display: inline-block;
+text-align: center;
+color:#fff;
+padding: 2px;
+margin: 4px;
+}
+.arena_new {
+background: url(img/new.png) no-repeat scroll right top / 35px auto transparent;
+display: block;
+height: 35px;
+width: 35px;
+position: absolute;
+right: 0;
+top: 0;
+}
+.tuongnhatu {
+text-align: center;
+background:#aaacbd url('images/tuongnhatu.png') repeat-x bottom;
+padding: 20px;
+}
+.cuasonhatu {
+background: url('images/cuasonhatu.png') repeat-x;
+height: 30px;
+}
+.nennhatu {
+background: url('images/nennhatu.png');
+padding: 4px;
+}
+.viengame {
+border: 1px solid #5ac1c7;
+padding: 1px;
+margin: 3px 0px 2px 0px;
+}
+.nenbetong{
+background: url('images/betong.png');
+padding: 2px;
+}
+.nengo{
+background: url('images/nengo.png');
+padding: 2px;
+}
+.xavt {
+        -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.canhcv{
+background: url('images/canhcv.png');
+repeat-x;
+margin-top: 4px;
+margin: -2px -5px -1px -5px;
+padding: 6px;
+max-width: 100%;
+margin: auto;
+height: 40px;
+border-bottom: 2px solid #e7e7e7;}
+.cotinhte{
+background: url('images/background.png');
+padding: 2px;
+}
+.nenmuasam{
+background: url('images/01.png');
+repeat-x;
+margin-top: 4px;
+margin: -2px -5px -1px -5px;
+padding: 6px;
+max-width: 100%;
+margin: auto;
+height: 40px;
+border-bottom: 2px solid #e7e7e7;}
+.buico {
+background: url('images/buico.png') repeat-x;
+margin-bottom: 4px;
+height: 24px;
+}
+.nen_congvien{
+background: url('images/nen-congvien.png') repeat-x;
+height: 142px;
+margin-top: 4px;
+}
+.thanhpho{
+background: url('images/nencauca.png');
+margin: -2px -5px -1px -5px;
+padding: 6px;
+max-width: 100%;
+margin: auto;
+height: 40px;
+border-bottom: 2px solid #e7e7e7;
+}
+.clear{
+clear: both;
+}
+.conduong {
+background: url('images/conduong.png') repeat-x;
+height: 28px;
+}
+.chuong{
+background: url('images/chuong.png') no-repeat;
+height: 100px;
+margin-top: -4px;
+float: left;
+width: 250px;
+}
+.hoca{
+background: url('images/hoca.png') no-repeat;
+height: 80px;
+float: left;
+width: 200px;
+margin-left: 90px;
+margin-top: 10px;
+}
+.nengach{
+background: url('images/nengach.png');
+padding: 2px;
+}
+.damcuoi{
+background: url('images/damcuoi.png');
+repeat-x;
+margin-top: 4px;
+margin: -2px -5px -1px -5px;
+padding: 6px;
+max-width: 100%;
+margin: auto;
+height: 40px;
+border-bottom: 2px solid #e7e7e7;}
+.duong{
+background-image:url('/icon/duong.png');
+height:60px;
+max-width: 900px;
+width: 100%;
+}
+.le{
+background-image:url('/icon/le.png');
+height:30px;margin:0;
+max-width: 900px;
+width: 100%;
+}
+.leduong{
+background-image:url('/icon/leduong.png');
+height:30px;margin:0;
+max-width: 900px;
+width: 100%;
+}
+.nhasang{
+background:url(/icon/iconxoan/nencanh.png) repeat-x;height:96px;width:100%;
+max-width: 900px;
+width: 100%;
+}
+.nhatoi{
+background:url(images/nhatoi.png) repeat-x;height:96px;width:100%;
+max-width: 900px;
+width: 100%;
+}
+.nencay{
+background:url('/icon/iconxoan/nencanh1.png') repeat-x;height:96px;width:100%;
+max-width: 900px;
+width: 100%;
+}
+.legend {text-shadow: 0px 0px 8px purple; font-weight: bold;}
+.friendly {text-shadow: 0px 0px 8px green; font-weight: bold;}
+.rich {text-shadow: 0px 0px 8px gold; font-weight: bold;}
+.darkness {text-shadow: 0px 0px 8px black; font-weight: bold;}
+.hero {text-shadow: 0px 0px 8px red; font-weight: bold;}
+.canhngocrong1{
+background:url('/icon/rong1.png');
+}
+.canhngocrong2{
+background:url('/icon/rong2.png');
+}
+.canhngocrong3{
+background:url('/icon/rong3.png');
+}
+.canhngocrong4{
+background:url('/icon/rong4.png');
+}
+.canhngocrong5{
+background:url('/icon/rong5.png');
+}
+.canhngocrong{
+background:url('/icon/rong.png');
+}
